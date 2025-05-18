@@ -126,7 +126,7 @@ if page == "📊 Données & Prédiction Crédit":
         with open(image_path, "rb") as f:
             return base64.b64encode(f.read()).decode()
 
-    image_path = "JOE.jpg"
+    image_path = "src/JOE.jpg"
     image_data = get_base64_image(image_path)
 
     # -------- CSS AVATAR ET SIDEBAR --------
