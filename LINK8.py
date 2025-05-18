@@ -117,7 +117,6 @@ time.sleep(5)
 page = st.selectbox("📌 Choisissez une section :", [
     "📊 Données & Prédiction Crédit",
     "🗺️ Carte des Monnaies dans le Monde",
-    "🦙💬 CHATBOT LLAMA"
 ])
 
 # === PAGE 1 : DONNÉES & PRÉDICTION ===
